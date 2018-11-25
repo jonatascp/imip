@@ -1,0 +1,1 @@
+<?php header( 'Location: /bootstrap/index.html' ) ;  ?>

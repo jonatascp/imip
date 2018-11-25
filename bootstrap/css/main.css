@@ -29,14 +29,14 @@ body, html {
   color: #176524;
 }
 
-.grid-home .row-fluid span {
+.grid-home .row-fluid span, .options span {
   border: 3px solid #176524;
   border-radius: 25px;
   padding: 2px 25px;
   margin: 0 2px;
 }
 
-.grid-home .row-fluid img {
+.grid-home .row-fluid img, .options img {
   width: 67px;
 }
 
@@ -83,5 +83,11 @@ body, html {
 a {
   color: currentColor;
   text-decoration: none;
+
+ }
+
+ p.title, span.title {
+    color: #176524;
+    font: 400 25px/1.8 "Lato", sans-serif;
 
  }

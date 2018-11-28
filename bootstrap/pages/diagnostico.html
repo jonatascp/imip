@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IMIP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="../css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="../css/main.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    
+    <div class="container">
+		<div class="row">
+			<div class="span8">
+				<p class="title">Diagnóstico</p>
+				<p>XXXXXXX</p>
+				<p class="title">Localização</p>
+				<p>XXXX</p>
+				<p class="title">Horário Funcionamento</p>
+				<p>XXXX</p>
+				<p class="title">Responsável Técnico</p>
+				<p>XXXXXXXX
+			</div>
+			<div class="span4 options  text-right">
+				<p style="padding-top: 120px;">
+					<a href="#map" data-toggle="modal"><span class="title">Localização</span></a>
+					<img src="../img/icon/location.png" />
+				</p>
+				<p>
+					<a href="#flow" data-toggle="modal"><span class="title">Fluxo</span></a>
+					<img src="../img/icon/flow.png" />
+				</p>
+				<p>
+					<a href="#" onclick="window.print();"><span class="title">Imprimir</span></a><img src="../img/icon/print.png" />
+				</p>
+				<p>
+					<a href="../index.html"><span class="title">Voltar</span></a><img src="../img/icon/back.jpg" />
+				</p>
+				
+			</div>
+		</div>
+    	
+
+    </div> <!-- /container -->
+
+    <!-- Modal -->
+	<div id="map" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="mapa" aria-hidden="true">
+	  <div class="modal-body">
+	    <img src="../img/locations/mapa-imip.jpeg" />
+	  </div>
+	</div> 
+	
+	<div id="flow" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="fluxo" aria-hidden="true">
+	  <div class="modal-body">
+	    <img src="../img/flows/nationco.jpeg" />
+	  </div>
+	</div> 
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

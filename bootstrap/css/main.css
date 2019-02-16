@@ -37,7 +37,7 @@ body, html {
 }
 
 .grid-home .row-fluid img, .options img {
-  width: 50px;
+  width: 40px;
 }
 
 .grid-home .row-fluid {
@@ -90,4 +90,7 @@ a {
     color: #176524;
     font: 400 25px/1.8 "Lato", sans-serif;
 
+ }
+.grid-home .row-fluid div span{
+ white-space: nowrap;
  }
